@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:latest
 MAINTAINER berney- https://github.com/berney
 
 RUN apk --no-cache add python openssl git && \
